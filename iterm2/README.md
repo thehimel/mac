@@ -53,7 +53,7 @@ command in PATH`.
     * `Hide scrollbars`: `True`
 * Create a profile. Make it the default profile.
   * `Colors`
-    * `Option 1 (Preferred)`
+    * `Option 1`
       * `Color Presets...: Tango Dark`
     * `Option 2`
       * `Color Presets... / Import...`: Select `Solarized Dark - Patched.itermcolors`. Now choose this color scheme.
