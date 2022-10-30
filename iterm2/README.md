@@ -45,28 +45,40 @@ command in PATH`.
 ### Configure iTerm
 
 * Go to preferences: `⌘ + ,`
+* `Appearance`
+  * `General`
+    * `Theme`: `Minimal`
+    * `Status bar location`: `Bottom`
+  * `Windows`
+    * `Hide scrollbars`: `True`
 * Create a profile. Make it the default profile.
-  * Go to `Appearance / General` section. Select `Bottom` as the `Status bar location`.
-  * Go to `Appearance / Windows` section. Enable `Hide scrollbars`.
-  * Go to the `Colors` section. Select `Color Presets...`, click on `Import...`.
-  * Select `Solarized Dark - Patched.itermcolors`. Now choose this color scheme.
-  * Edit `Basic Colors / Background`: `HSB with Brightness Slider / 2b2b2b`.
-  * Go to the `Text` section.
-    * Select the font: `SourceCode+PowerLine+AwesomeRegular`, and size: `14`.
-    * Check `Use ligatures` to make symbols like `-->` look pretty.
-  * Go to the `Window` section, and set `Columns: 100` and `Rows: 25` in the `Settings for New Windows`.
-  * Go to the `Session` section, check the `Status bar enabled`, and click on `Configure Status Bar`.
-    * Add `CPU`, `RAM`, and `Custom Action`.
-      * Select `Custom Action` and click on `Configure Component`.
-        * Set `Configure Action` with `Action`: `New Window with Profile`, and `Profile`: `<selection-your-profile>`.
-      * Set `Auto-Rainbow`: `Automatic`.
-    * Select `Advanced / Background Color`.
-      * Set the color as `HSB with Brightness Slider / 2b2b2b` that is same as the background color of the terminal.
-      * If scroll bar exists:
-        * With the `Pen (✎)` icon, choose the color of the background of the scroll bar in the terminal.
-        * For dark mode the color is `HSB with Brightness Slider / 373737`.
-        * After selecting the color, make sure to turn off the `Screen Recording` for `iTerm` in `System Settings /
-        Privacy and Security`.
+  * `Colors`
+    * `Option 1 (Preferred)`
+      * `Color Presets...: Tango Dark`
+    * `Option 2`
+      * `Color Presets... / Import...`: Select `Solarized Dark - Patched.itermcolors`. Now choose this color scheme.
+    * `Basic Colors / Background`: `HSB with Brightness Slider / 2b2b2b`.
+  * `Text`
+    * `Cursor: Vertical bar | Blinking cursor: True`
+    * `Font: SourceCode+PowerLine+AwesomeRegular | Regular | 14 | Use ligatures: True`.
+    * The ligatures are used to make symbols like `-->` look pretty.
+  * `Window`
+    * `Window Appearances: Transparency: 20 | Keep background colors opaque: True | Blue: 20`
+    * `Settings for New Windows: Columns: 100 | Rows: 25`
+  * `Session`
+    * `Status bar enabled: True`
+    * `Configure Status Bar`
+      * Add `CPU`, `RAM`, and `Custom Action`.
+        * Select `Custom Action` and click on `Configure Component`.
+          * Set `Configure Action` with `Action`: `New Window with Profile`, and `Profile`: `<selection-your-profile>`.
+      * `Auto-Rainbow`: `Automatic`
+      * `Advanced / Background Color`
+        * Set the color as `HSB with Brightness Slider / 2b2b2b` that is same as the background color of the terminal.
+        * If scroll bar exists:
+          * With the `Pen (✎)` icon, choose the color of the background of the scroll bar in the terminal.
+          * For dark mode the color is `HSB with Brightness Slider / 373737`.
+          * After selecting the color, make sure to turn off the `Screen Recording` for `iTerm` in `System Settings /
+          Privacy and Security`.
 
 ### Remove the ‘Last Login’ Prompt
 
