@@ -53,10 +53,8 @@ command in PATH`.
     * `Hide scrollbars`: `True`
 * Create a profile. Make it the default profile.
   * `Colors`
-    * `Option 1`
-      * `Color Presets...: Tango Dark`
-    * `Option 2`
-      * `Color Presets... / Import...`: Select `Solarized Dark - Patched.itermcolors`. Now choose this color scheme.
+    * `Color Presets... / Import...`: Select `Solarized Dark - Patched.itermcolors`. Now choose this color scheme.
+    * [Dracula+](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Dracula%2B.itermcolors) is also a very nice choice.
     * `Basic Colors / Background`: `HSB with Brightness Slider / 2b2b2b`.
   * `Text`
     * `Cursor: Vertical bar | Blinking cursor: True`
@@ -73,7 +71,7 @@ command in PATH`.
           * Set `Configure Action` with `Action`: `New Window with Profile`, and `Profile`: `<selection-your-profile>`.
       * `Auto-Rainbow`: `Automatic`
       * `Advanced / Background Color`
-        * Set the color as `HSB with Brightness Slider / 2b2b2b` that is same as the background color of the terminal.
+        * Set the color as the background color of the terminal fetched from `Colors / Basic Colors / Background`.
         * If scroll bar exists:
           * With the `Pen (✎)` icon, choose the color of the background of the scroll bar in the terminal.
           * For dark mode the color is `HSB with Brightness Slider / 373737`.
