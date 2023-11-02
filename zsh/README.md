@@ -82,7 +82,7 @@ fontFamily: 'MesloLGS NF',
 
 #### powerlevel10k
 
-* [Install with Oh My ZSH](${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k)
+* [Install with Oh My ZSH](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 
 ##### Customizations
 
