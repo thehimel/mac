@@ -55,6 +55,11 @@ module.exports = {
 * [Source](https://github.com/webmatze/hyperborder)
 * [Tutorial - HyperTerm with hyperborder Plugin](https://youtu.be/SfDWJRaqdLA)
 
+## Uninstall a Theme or Plugin
+
+* `hyper uninstall <theme or plugin name>`.
+* [Reference](https://stackoverflow.com/questions/62668216/how-can-i-change-the-theme-of-my-hyper-terminal-downloaded-from-hyper-is)
+
 ## References
 
 * [My NEW Favourite TERMINAL Configuration | Hyper Fig Night Owl](https://youtu.be/QsXbY33EX9w)
