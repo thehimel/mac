@@ -82,8 +82,7 @@ fontFamily: 'MesloLGS NF',
 
 #### powerlevel10k
 
-* [Install with Homebrew](https://formulae.brew.sh/formula/powerlevel10k)
-* Add the following line at the end of the `~/.zshrc` file: `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme`
+* [Install with Oh My ZSH](${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k)
 
 ##### Customizations
 
