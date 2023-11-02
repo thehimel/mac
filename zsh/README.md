@@ -10,7 +10,7 @@
 * `cd ~ && touch .hushlogin`
 * [Source](https://medium.com/macoclock/how-to-remove-the-last-login-prompt-from-iterm-terminal-on-macos-8d70dea0f2e)
 
-### User Directory Name as the Tab Title in Termnial
+### Use Current Working Directory as the Tab Title in Termnial
 
 * Open the configuration file with VS Code using `code ~/.zshrc`.
 * Uncomment `DISABLE_AUTO_TITLE="true"`.
@@ -23,6 +23,10 @@ precmd () {
     echo -ne "$tab_title"
 }
 ```
+
+#### Reference
+
+* [Elegant Development Experience With Zsh and Hyper Terminal](https://robertcooper.me/post/elegant-development-experience-with-zsh-and-hyper-terminal)
 
 ## Oh My ZSH
 
