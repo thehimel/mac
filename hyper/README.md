@@ -35,6 +35,7 @@ module.exports = {
 }
 ```
 * [Source](https://github.com/webmatze/hyperborder)
+* [Tutorial - HyperTerm with hyperborder Plugin](https://youtu.be/SfDWJRaqdLA)
 
 ## References
 
