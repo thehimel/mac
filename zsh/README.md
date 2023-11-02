@@ -72,6 +72,23 @@ fontFamily: 'MesloLGS NF',
 * [Install with Homebrew](https://formulae.brew.sh/formula/powerlevel10k)
 * Add the following line at the end of the `~/.zshrc` file: `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme`
 
+##### Customizations
+
+###### Remove OS Icon from Prompt
+
+* Open `~/.p10k.zsh`.
+* Comment the `os_icon` as follows:
+
+```
+# The list of segments shown on the left. Fill it with the most important segments.
+typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
+    # os_icon                 # os identifier
+    dir                     # current directory
+    vcs                     # git status
+    # prompt_char           # prompt symbol
+)
+```
+
 ## Fig
 
 * Fig allows powerfull autocompletion in the terminal.
