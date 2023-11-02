@@ -56,6 +56,11 @@ precmd () {
 * Go to Settings.
 * Select `Heck Nerd Font Regular` in `Profiles/Basic/Fonts`.
 
+#### Configure Hyper
+
+* Open the configuration file located in `~/.hyper.js`.
+* Update the fontFamily as `fontFamily: '"Hack Nerd Font", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',`
+
 ### Themes
 
 #### powerlevel10k
