@@ -76,7 +76,6 @@ fontFamily: 'MesloLGS NF',
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.persistentSessionReviveProcess": "never",
     "terminal.integrated.enablePersistentSessions": false,
     ...
 }
