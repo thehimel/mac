@@ -17,9 +17,14 @@
 
 ### Plugins
 
-#### ZSH Auto suggestions
+#### zsh-autosuggestions
 
 * [Install with Homebrew](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew)
+* To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
+
+#### zsh-syntax-highlighting
+
+* [Install with Homebrew](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#using-packages)
 * To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
 ## Fig
