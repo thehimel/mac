@@ -7,6 +7,10 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 * We use ZSH as our shell in this configuration.
 * Configure ZSH with the following [instructions](../zsh).
 
+## Hyper
+
+* Install Hyper with Homebrew from [here](https://formulae.brew.sh/cask/hyper).
+
 ## References
 
 * [My NEW Favourite TERMINAL Configuration | Hyper Fig Night Owl](https://youtu.be/QsXbY33EX9w)
