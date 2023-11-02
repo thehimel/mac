@@ -50,6 +50,12 @@ precmd () {
 * The [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) is the recommended font according to the documentation mentioned [here](https://github.com/romkatv/powerlevel10k#fonts).
 * [Install with Homebrew](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
 
+#### Configure ZSH
+
+* Open Terminal.app
+* Go to Settings.
+* Select `Heck Nerd Font Regular` in `Profiles/Basic/Fonts`.
+
 ### Themes
 
 #### powerlevel10k
