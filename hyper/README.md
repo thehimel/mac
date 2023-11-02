@@ -55,6 +55,13 @@ module.exports = {
 * [Source](https://github.com/webmatze/hyperborder)
 * [Tutorial - HyperTerm with hyperborder Plugin](https://youtu.be/SfDWJRaqdLA)
 
+### Themes
+
+#### hyper-night-owl
+
+* Install from [here](https://hyper.is/store/hyper-night-owl).
+* Tutorial: [My NEW Favourite TERMINAL Configuration | Hyper Fig Night Owl](https://youtu.be/QsXbY33EX9w)
+
 ## Uninstall a Theme or Plugin
 
 * `hyper uninstall <theme or plugin name>`. Example: `hyper uninstall hyper-material-theme`.
