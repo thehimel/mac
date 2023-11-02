@@ -47,7 +47,7 @@ precmd () {
 
 ### Themes
 
-####
+#### powerlevel10k
 
 * [Install with Homebrew](https://formulae.brew.sh/formula/powerlevel10k)
 * Add the following line at the end of the `~/.zshrc` file: `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme`
