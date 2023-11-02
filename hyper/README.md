@@ -11,6 +11,10 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 
 * Install Hyper with Homebrew from [here](https://formulae.brew.sh/cask/hyper).
 
+### Plugins
+
+* [hyperpower](https://hyper.is/store/hyperpower)
+
 ## References
 
 * [My NEW Favourite TERMINAL Configuration | Hyper Fig Night Owl](https://youtu.be/QsXbY33EX9w)
