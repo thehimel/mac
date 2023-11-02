@@ -77,6 +77,8 @@ fontFamily: 'MesloLGS NF',
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.enablePersistentSessions": false,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
     ...
 }
 ```
