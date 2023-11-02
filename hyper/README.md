@@ -4,6 +4,7 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 
 ## ZSH
 
+* We use ZSH as our shell in this configuration. Presently, this is the default shell in Mac.
 * Configure ZSH with the following [instructions](../zsh).
 
 ## References
