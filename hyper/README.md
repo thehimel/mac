@@ -57,6 +57,8 @@ module.exports = {
 
 ### Themes
 
+> To allow `powerlevel10k` take impact properly, run `p10k configure` after installing the theme.
+
 #### hyper-night-owl
 
 * Install from [here](https://hyper.is/store/hyper-night-owl).
