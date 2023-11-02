@@ -83,6 +83,10 @@ command in PATH`.
 * Go to the home directory, and run `touch .hushlogin`.
 * [Source](https://medium.com/macoclock/how-to-remove-the-last-login-prompt-from-iterm-terminal-on-macos-8d70dea0f2e)
 
+### Use Currect Working Directory as the Tab Title in Terminal
+
+* Refer to [this link](https://aheze.medium.com/how-to-change-the-window-title-in-terminal-zsh-oh-my-zsh-ca41f3a35128).
+
 ### Configure Power Level 10K
 
 * Restart `iterm2`. Follow the prompts. The configurations are saved in `~/.zshrc` file.
