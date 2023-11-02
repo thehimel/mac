@@ -11,6 +11,23 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 
 * Install Hyper with Homebrew from [here](https://formulae.brew.sh/cask/hyper).
 
+### Customize
+
+#### Cursor
+
+```
+module.exports = {
+  config: {
+    ...
+      // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
+      cursorShape: 'BEAM',
+      // set to `true` (without backticks and without quotes) for blinking cursor
+      cursorBlink: true,
+    ...
+  }
+}
+```
+
 ### Plugins
 
 #### hyperpower
