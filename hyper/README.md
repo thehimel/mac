@@ -12,6 +12,13 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 * `Oh My Zsh is an open source, community-driven framework for managing your Zsh configuration.` - [ohmyz.sh](https://ohmyz.sh/).
 * Install Oh My ZSH from [ohmyz.sh](https://ohmyz.sh/)
 
+### Beautify
+
+#### Remove the ‘Last Login’ prompt from iTerm/Terminal
+
+* `cd ~ && touch .hushlogin`
+* [Source](https://medium.com/macoclock/how-to-remove-the-last-login-prompt-from-iterm-terminal-on-macos-8d70dea0f2e)
+
 ### Plugins
 
 #### ZSH Auto suggestions
