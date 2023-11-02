@@ -65,6 +65,19 @@ fontSize: 12,
 fontFamily: 'MesloLGS NF',
 ```
 
+#### Configure VS Code
+
+* Add the following configuration in settings.json
+
+```
+{
+  ...
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 12,
+  ...
+}
+```
+
 ### Themes
 
 #### powerlevel10k
