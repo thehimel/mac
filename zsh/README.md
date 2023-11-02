@@ -76,9 +76,15 @@ fontFamily: 'MesloLGS NF',
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.persistentSessionReviveProcess": "never",
+    "terminal.integrated.enablePersistentSessions": false,
     ...
 }
 ```
+
+##### References
+
+* [How to disable session restore message in vscode terminal](https://stackoverflow.com/questions/70285159/how-to-disable-session-restore-message-in-vscode-terminal)
 
 ### Themes
 
