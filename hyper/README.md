@@ -57,7 +57,7 @@ module.exports = {
 
 ## Uninstall a Theme or Plugin
 
-* `hyper uninstall <theme or plugin name>`.
+* `hyper uninstall <theme or plugin name>`. Example: `hyper uninstall hyper-material-theme`.
 * [Reference](https://stackoverflow.com/questions/62668216/how-can-i-change-the-theme-of-my-hyper-terminal-downloaded-from-hyper-is)
 
 ## References
