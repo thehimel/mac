@@ -47,19 +47,23 @@ precmd () {
 
 ### Fonts
 
-* The [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) is the recommended font according to the documentation mentioned [here](https://github.com/romkatv/powerlevel10k#fonts).
-* [Install with Homebrew](https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts)
+* Install `MesloLGS NF` fonts by downloading the files from [here](https://github.com/romkatv/powerlevel10k#manual-font-installation) and installing them individually.
 
 #### Configure ZSH
 
 * Open Terminal.app
 * Go to Settings.
-* Select `Heck Nerd Font Regular` in `Profiles/Basic/Fonts`.
+* Select `MesloLGS NF Font Regular` in `Profiles/Basic/Fonts`. Keep the font size 12.
 
 #### Configure Hyper
 
 * Open the configuration file located in `~/.hyper.js`.
-* Update the fontFamily as `fontFamily: '"Hack Nerd Font", "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',`
+* Update the following fields:
+
+```
+fontSize: 12,
+fontFamily: 'MesloLGS NF',
+```
 
 ### Themes
 
