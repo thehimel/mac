@@ -71,10 +71,12 @@ fontFamily: 'MesloLGS NF',
 
 ```
 {
-  ...
-  "terminal.integrated.fontFamily": "MesloLGS NF",
-  "terminal.integrated.fontSize": 12,
-  ...
+    ...
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    ...
 }
 ```
 
