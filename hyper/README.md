@@ -13,7 +13,28 @@ This is a walkthrough to install and configure Hyper terminal in Mac.
 
 ### Plugins
 
-* [hyperpower](https://hyper.is/store/hyperpower)
+#### hyperpower
+
+* Install from [here](https://hyper.is/store/hyperpower)
+
+#### hyperborder
+
+* Open the configuration file with VS Code using `code ~/.hyper.js`.
+* Add the plugin in this section `plugins: ["hyperborder"]`.
+* Customize by setting border width and animating the border:
+```
+module.exports = {
+  config: {
+    ...
+      hyperBorder: {
+          borderWidth: '4px',
+          animate: true,
+      },
+    ...
+  }
+}
+```
+* [Source](https://github.com/webmatze/hyperborder)
 
 ## References
 
