@@ -45,6 +45,13 @@ precmd () {
 * [Install with Homebrew](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#using-packages)
 * To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
+### Themes
+
+####
+
+* [Install with Homebrew](https://formulae.brew.sh/formula/powerlevel10k)
+* Add the following line at the end of the `~/.zshrc` file: `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme`
+
 ## Fig
 
 * Fig allows powerfull autocompletion in the terminal.
