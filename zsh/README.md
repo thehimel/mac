@@ -79,6 +79,7 @@ fontFamily: 'MesloLGS NF',
     "terminal.integrated.enablePersistentSessions": false,
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
+    "editor.unicodeHighlight.nonBasicASCII": false,
     ...
 }
 ```
