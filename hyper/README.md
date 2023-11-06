@@ -1,6 +1,6 @@
 # Hyper Terminal
 
-* This is a walkthrough to install and configure Hyper terminal in Mac.
+* This is a walkthrough to install and configure Hyper terminal on Mac.
 * Inspired by the terminal used in [this video](https://youtu.be/oe21Nlq8GS4).
 
 ## ZSH
@@ -11,6 +11,7 @@
 ## Hyper
 
 * Install Hyper with Homebrew from [here](https://formulae.brew.sh/cask/hyper).
+* Launch the Hyper terminal by opening `Hyper.app`.
 
 ### Customize
 
