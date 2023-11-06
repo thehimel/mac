@@ -72,6 +72,11 @@ module.exports = {
 
 * To have the same theme like hyper, install [Night Owl Theme](https://plugins.jetbrains.com/plugin/12262-night-owl-theme) in PyCharm.
 
+#### Atom Material Icons
+
+* PyCharm: [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
+* Google Chrome: [Atom Material Icons](https://chrome.google.com/webstore/detail/atom-material-icons/pljfkbaipkidhmaljaaakibigbcmmpnc)
+
 ## Uninstall a Theme or Plugin
 
 * `hyper uninstall <theme or plugin name>`. Example: `hyper uninstall hyper-material-theme`.
