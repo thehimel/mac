@@ -48,6 +48,7 @@ module.exports = {
   config: {
     ...
       hyperBorder: {
+          borderColors: ['random','random'],
           borderWidth: '4px',
           animate: true,
       },
