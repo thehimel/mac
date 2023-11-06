@@ -17,6 +17,8 @@
 
 #### Cursor
 
+* Edit the configuration file with VS Code using `code ~/.hyper.js`.
+
 ```
 module.exports = {
   config: {
