@@ -17,3 +17,11 @@ Mac configurations
   * Notes:
     * Previous location of python3: `/usr/bin/python3`
     * Homebrew location of python3: `/opt/homebrew/bin/python3`
+
+## Remove Deleted Apps From Background Login Items
+
+* Remove the app-related files from the following locations (wherever they exist):
+   * `~/Library/LaunchAgents`
+   * `/Library/LaunchAgents`
+   * `/Library/LaunchDaemons`
+* Reference: [Remove Deleted Apps From Background Login Items In Ventura](https://droidwin.com/remove-deleted-apps-from-background-login-items-in-ventura/)
