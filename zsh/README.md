@@ -16,7 +16,7 @@
 * Uncomment `DISABLE_AUTO_TITLE="true"`.
 * Add the following lines:
 
-```
+```bash
 # The zsh precmd function to set terminal tab title to the current working directory.
 precmd () {
     tab_title="\\033]0;${PWD##*/}\\007"
