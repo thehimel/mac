@@ -18,19 +18,18 @@
 #### Cursor
 
 * Edit the configuration file with VS Code using `code ~/.hyper.js`.
-
-```
-module.exports = {
-  config: {
-    ...
-      // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-      cursorShape: 'BEAM',
-      // set to `true` (without backticks and without quotes) for blinking cursor
-      cursorBlink: true,
-    ...
+  ```javascript
+  module.exports = {
+    config: {
+      // ...
+        // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
+        cursorShape: 'BEAM',
+        // set to `true` (without backticks and without quotes) for blinking cursor
+        cursorBlink: true,
+      // ...
+    }
   }
-}
-```
+  ```
 
 ### Plugins
 
@@ -43,19 +42,19 @@ module.exports = {
 * Open the configuration file with VS Code using `code ~/.hyper.js`.
 * Add the plugin in this section `plugins: ["hyperborder"]`.
 * Customize by setting border width and animating the border:
-```
-module.exports = {
-  config: {
-    ...
-      hyperBorder: {
-          borderColors: ['random','random'],
-          borderWidth: '4px',
-          animate: true,
-      },
-    ...
+  ```javascript
+  module.exports = {
+    config: {
+      // ...
+        hyperBorder: {
+            borderColors: ['random','random'],
+            borderWidth: '4px',
+            animate: true,
+        },
+      // ...
+    }
   }
-}
-```
+  ```
 * [Source](https://github.com/webmatze/hyperborder)
 * [Tutorial - HyperTerm with hyperborder Plugin](https://youtu.be/SfDWJRaqdLA)
 
