@@ -113,7 +113,7 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
 
 ## Fig
 
-* Fig allows powerfull autocompletion in the terminal.
+* Fig allows powerful autocompletion in the terminal.
 * Install fig from [here](https://fig.io/).
 * [Tutorial](https://youtu.be/QsXbY33EX9w?t=243)
 > Presently, Fig is not allowing new Signups.
@@ -121,4 +121,3 @@ typeset -g POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
 ## References
 
 * [Install zsh autosuggestion on your terminal on your Mac for autocompletion of command you type](https://youtu.be/Gj5BuFwGK6o)
-
