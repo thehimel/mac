@@ -70,7 +70,7 @@ module.exports = {
 
 #### Night Owl in PyCharm
 
-* To have the same theme like hyper, install [Night Owl Theme](https://plugins.jetbrains.com/plugin/12262-night-owl-theme) in PyCharm.
+* To have the same theme as hyper, install [Night Owl Theme](https://plugins.jetbrains.com/plugin/12262-night-owl-theme) in PyCharm.
 
 #### Atom Material Icons
 
@@ -86,4 +86,4 @@ module.exports = {
 
 * [My NEW Favourite TERMINAL Configuration | Hyper Fig Night Owl](https://youtu.be/QsXbY33EX9w)
 * [Hyper - A modern terminal emulator for Linux](https://youtu.be/u8_HwJjbKHA)
-* [Setup for new machine | Hyper Teminal + zsh (with autosuggestions) + spaceship prompt](https://gist.github.com/xavianaxw/8e75ff37adc45bc9d3d62ada2e72ff3f)
+* [Setup for new machine | Hyper Terminal + zsh (with autosuggestions) + spaceship prompt](https://gist.github.com/xavianaxw/8e75ff37adc45bc9d3d62ada2e72ff3f)
