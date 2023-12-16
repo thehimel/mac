@@ -15,6 +15,9 @@
 * Install Homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
   * Source: [brew.sh](https://brew.sh)
   * **Make sure to execute the commands to add Homebrew to the PATH.**
+    * `code ~/.zshrc` and add the following line at the end of the file.
+    * `export PATH=/opt/homebrew/bin:$PATH`
+
 * Install iterm2: `brew install --cask iterm2`
   * Source: [brew.sh/cask/iterm2](https://formulae.brew.sh/cask/iterm2)
 * Install git: `brew install git`
