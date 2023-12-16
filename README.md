@@ -28,6 +28,7 @@ Mac configurations
   ```sh
   echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
   ```
+* Install Maven: `brew install maven`
 
 ## Remove Deleted Apps From Background Login Items
 
