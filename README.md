@@ -28,7 +28,18 @@ Mac configurations
   ```sh
   echo 'export PATH="/opt/homebrew/opt/openjdk@17/bin:$PATH"' >> ~/.zshrc
   ```
+* Test Java installation
+```sh
+java -version                                                                             ✔ 
+openjdk version "17.0.9" 2023-10-17
+OpenJDK Runtime Environment Homebrew (build 17.0.9+0)
+OpenJDK 64-Bit Server VM Homebrew (build 17.0.9+0, mixed mode, sharing)
+```
 * Install Maven: `brew install maven`
+* Test Maven Installation
+```sh
+mvn -help
+```
 
 ## Remove Deleted Apps From Background Login Items
 
