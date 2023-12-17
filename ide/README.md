@@ -1,18 +1,20 @@
-# PyCharm
+# IDE
+
+## Common in PyCharm, Goland, and IntelliJ IDEA
 
 > The same settings applies for GoLand too.
 
-## Restore Defaults
+### Restore Defaults
 
 ```File -> Manage IDE Settings -> Restore IDE Settings```
 
-## Enable or Disable Sync
+### Enable or Disable Sync
 
 ```Settings -> Settings Sync```
 
-## Customizations
+### Customizations
 
-### Settings
+#### Settings
 
 - Appearance & Behavior
   - Appearance
@@ -35,11 +37,23 @@
   - Terminal
     - Cursor shape: `Vertical`
 
-### Plugins
+#### Plugins
 
 - [Atom Material Icons - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
 - [Material Theme UI - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/8006-material-theme-ui)
 
-### Theme
+#### Theme
 
 - Material Oceanic
+
+## IntelliJ IDEA
+
+### Customizations
+
+#### Settings
+
+- Build
+  - Compiler
+    - ☑ Build project automatically 
+  - Advanced Settings
+    - ☑ Allow auto-make to start even if developed application is currently running
