@@ -57,3 +57,12 @@
     - ☑ Build project automatically 
   - Advanced Settings
     - ☑ Allow auto-make to start even if developed application is currently running
+
+#### Load Maven Modules
+
+* Clone the repository and open it with IDE and wait for sometime for the IDE to detect Maven modules.
+![img.png](images/img.png)
+* Click on `LOAD` to load all the projects.
+* You can also load the projects manually.
+  * Navigate to `Project Structure | Modules | + | Add | Import Module`
+  * Select the project directory and load.
