@@ -19,6 +19,13 @@ Mac configurations
   * Previous location of python3: `/usr/bin/python3`
   * Homebrew location of python3: `/opt/homebrew/bin/python3`
 
+### Install Python Libraries
+
+```shell
+pip install numpy
+pip install jupyterlab
+```
+
 ### Maven
 
 #### With Homebrew
