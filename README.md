@@ -23,7 +23,7 @@ Mac configurations
 
 ```shell
 pip install numpy
-pip install jupyterlab
+pip install jupyter
 ```
 
 ### Maven
