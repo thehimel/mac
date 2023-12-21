@@ -22,8 +22,10 @@ Mac configurations
 ### Install Python Libraries
 
 ```shell
-pip install numpy
 pip install jupyter
+pip install numpy
+pip install pandas
+pip install matplotlib
 ```
 
 ### Maven
