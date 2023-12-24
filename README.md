@@ -113,3 +113,13 @@ brew uninstall openjdk@17
    * `/Library/LaunchAgents`
    * `/Library/LaunchDaemons`
 * Reference: [Remove Deleted Apps From Background Login Items In Ventura](https://droidwin.com/remove-deleted-apps-from-background-login-items-in-ventura/)
+
+### Node
+
+```shell
+# Install
+brew install node
+
+# Uninstall
+brew uninstall node
+```
