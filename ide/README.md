@@ -2,8 +2,6 @@
 
 ## Common in PyCharm, Goland, and IntelliJ IDEA
 
-> The same settings applies for GoLand too.
-
 ### Restore Defaults
 
 ```File -> Manage IDE Settings -> Restore IDE Settings```
