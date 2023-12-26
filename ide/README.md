@@ -36,6 +36,11 @@
 - Tools
   - Terminal
     - Cursor shape: `Vertical`
+  - Actions on Save
+    - ☑ Reformat code
+    - ☑ Optimize imports
+    - ☑ Rearrange code
+    - ☑ Run code cleanup
 
 #### Plugins
 
@@ -73,7 +78,25 @@
 
 #### Settings
 
-:TODO
+- Editor
+  - Code Style
+    - HTML
+      - Tab size: `2`
+      - Indent: `2`
+      - Continuation indent: `2`
+    - JavaScript
+      - Tab size: `2`
+      - Indent: `2`
+      - Continuation indent:`2`
+    - Style Sheets
+      - CSS
+        - Tab size: `2`
+        - Indent: `2`
+        - Continuation indent: `2`
+    - TypeScript
+      - Tab size: `2`
+      - Indent: `2`
+      - Continuation indent: `2`
 
 #### Load JavaScript Project
 
