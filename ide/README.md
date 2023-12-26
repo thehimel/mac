@@ -78,4 +78,6 @@
 #### Load JavaScript Project
 
 * Clode the repository and copy to the project to a directory.
-* Select project directory and select Mark Directory as Resource Root. 
+* Select project directory and select `Mark Directory as | Resource Root`.
+
+![resource-root.png](images/resource-root.png)
