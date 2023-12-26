@@ -66,3 +66,16 @@
 * You can also load the projects manually.
   * Navigate to `Project Structure | Modules | + | Add | Import Module`
   * Select the project directory and load.
+
+## WebStorm
+
+### Customizations
+
+#### Settings
+
+:TODO
+
+#### Load JavaScript Project
+
+* Clode the repository and copy to the project to a directory.
+* Select project directory and select Mark Directory as Resource Root. 
