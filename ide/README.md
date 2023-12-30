@@ -97,6 +97,9 @@
       - Tab size: `2`
       - Indent: `2`
       - Continuation indent: `2`
+- Languages & Frameworks
+  - Node.js
+    - ☑ Coding assistance for Node.js
 
 #### Load JavaScript Project
 
