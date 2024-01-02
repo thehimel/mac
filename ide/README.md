@@ -101,6 +101,31 @@
   - Node.js
     - ☑ Coding assistance for Node.js
 
+### Debugging TypeScript
+
+* Enabled `sourceMap` and set the distribution output directory with `outDir` in the TS config file.
+* Compile the code with tsc command.
+* Select your breakpoints in the TS file.
+* Select the corresponding JS file in the distribution output directory.
+* Launch debug session by clicking on the Debug icon from the top right corner.
+* It will start the debug session with TS file.
+
+#### tsconfig.json
+
+```json
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "removeComments": true,
+    "noEmitOnError": true
+  }
+}
+```
+
 #### Load JavaScript Project
 
 * Clode the repository and copy to the project to a directory.
