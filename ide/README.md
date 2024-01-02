@@ -107,7 +107,7 @@
 * Compile the code with tsc command.
 * Select your breakpoints in the TS file.
 * Select the corresponding JS file in the distribution output directory.
-* Launch debug session by clicking on the Debug icon from the top right corner.
+* Launch debug session by clicking on the 🐞 icon from the top right corner.
 * It will start the debug session with TS file.
 
 #### tsconfig.json
