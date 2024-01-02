@@ -103,7 +103,7 @@
 
 ### Debugging TypeScript
 
-* Enabled `sourceMap` and set the distribution output directory with `outDir` in the TS config file.
+* Enable `sourceMap` and set the distribution output directory with `outDir` in the TS config file.
 * Compile the code with tsc command.
 * Select your breakpoints in the TS file.
 * Select the corresponding JS file in the distribution output directory.
