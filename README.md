@@ -123,3 +123,15 @@ brew install node
 # Uninstall
 brew uninstall node
 ```
+
+#### Delete `node_modules` and Reinstall Dependencies
+
+```shell
+rm -rf node_modules
+rm -f package-lock.json
+rm -f yarn.lock
+
+npm cache clean --force
+
+npm install
+```
