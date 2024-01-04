@@ -135,3 +135,118 @@ npm cache clean --force
 
 npm install
 ```
+
+### TypeScript
+
+```shell
+npm install -g typescript
+```
+#### Generate Configuration File
+
+```shell
+tsc --init
+```
+
+#### Important Configuration for `tsconfig.json`
+
+```json
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    
+    "rootDir": "./src",
+    "sourceMap": true,
+    "outDir": "./dist",
+    
+    "removeComments": true,
+    "noEmitOnError": true,
+    
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+  }
+}
+```
+
+#### Compile and Run
+
+```shell
+# Compile
+tsc
+
+# Run
+node fileName.js
+```
+
+##### ts-node
+
+* This package is used to run TypeScript files directly.
+
+```shell
+npm install -g ts-node
+```
+
+###### Create Alias
+
+* `code ~/.zshrc`
+* Add at the bottom of the file:
+
+```shell
+# Aliases
+alias ts="ts-node"
+```
+
+###### Test
+
+```shell
+ts -v
+```
+
+###### Run
+
+```shell
+ts fileName.ts
+```
+
+### Create React Project with Vite
+
+* Syntax: `npm init vite@latest <projectName> --template react`
+* `npm init vite@latest core --template react`
+  * `Select a framework: › React` 
+  * `Select a variant: › TypeScript + SWC`
+* Install dependencies: `npm install`.
+* Run server: `npm run dev`.
+
+#### Install Redux with Redux-Toolkit
+
+* `npm install react-redux @reduxjs/toolkit`
+
+> Redux core is included in `@reduxjs/toolkit`.
+
+### Bootstrap in React
+
+> Go to https://getbootstrap.com/ and grab the installation command with latest version.
+
+```shell
+npm i bootstrap@5.3.2
+```
+
+#### Configure Bootstrap in React Project
+
+* Remove css code from the project file like `index.css` and `App.css`.
+* Go to main.tsx and add the following lines above `import './index.css'`.
+* Clean up `App.tsx`.
+
+```typescript
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.tsx'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle.js'
+import './index.css'
+```
