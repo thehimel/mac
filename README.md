@@ -28,7 +28,14 @@ pip install pandas
 pip install matplotlib
 ```
 
-#### Support PDF Convert with Jupyter Notebook
+#### Jupyter Notebook
+
+* `pip install jupyter`
+* Update `~/.zshrc`
+  * `code ~/.zshrc`
+  * Add `export JUPYTER_PLATFORM_DIRS=1` at the bottom and save the file.
+
+##### Support PDF Convert with Jupyter Notebook
 
 ```shell
 brew install pandoc
@@ -38,9 +45,9 @@ xelatex --version
 
 > Restart PyCharm. Start the Jupyter Notebook web server. Export to PDF.
 
-* If there is any issue with path for xelatex:
+* If there is any issue with path for `xelatex`, update `~/.zshrc`:
   * `code ~/.zshrc`
-  * Add `export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"` and save the file.
+  * Add `export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"` at the bottom and save the file.
 
 ### Maven
 
