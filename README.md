@@ -28,6 +28,20 @@ pip install pandas
 pip install matplotlib
 ```
 
+#### Support PDF Convert with Jupyter Notebook
+
+```shell
+brew install pandoc
+brew install --cask mactex-no-gui  # This is to install xelatex
+xelatex --version
+```
+
+> Restart PyCharm. Start the Jupyter Notebook web server. Export to PDF.
+
+* If there is any issue with path for xelatex:
+  * `code ~/.zshrc`
+  * Add `export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"` and save the file.
+
 ### Maven
 
 #### With Homebrew
