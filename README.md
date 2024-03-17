@@ -142,7 +142,8 @@ brew uninstall openjdk@17
 brew install node
 
 # Uninstall
-brew uninstall node
+brew uninstall --force node
+rm -rf ~/.npm
 ```
 
 #### Delete `node_modules` and Reinstall Dependencies
