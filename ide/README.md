@@ -94,9 +94,13 @@
         - Indent: `2`
         - Continuation indent: `2`
     - TypeScript
-      - Tab size: `2`
-      - Indent: `2`
-      - Continuation indent: `2`
+      - Tabs and Indents
+        - Tab size: `2`
+        - Indent: `2`
+        - Continuation indent: `2`
+      - Wrapping and Braces
+        - Function declaration parameters
+          - □ Align when multiline
 - Languages & Frameworks
   - Node.js
     - ☑ Coding assistance for Node.js
