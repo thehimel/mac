@@ -12,7 +12,9 @@ Mac configurations
 * Install: `brew install python`
 * Link: `brew link python3`
 * Test: `which python3` and `where python3`
-* Create alias: `alias python=/opt/homebrew/bin/python3`
+* Update `~/.zshrc`
+  * `code ~/.zshrc`
+  * Add `alias python="python3"` and `alias pip="pip3"` in the file.
 * References
   * https://opensource.com/article/19/5/python-3-default-mac
 * Notes:
