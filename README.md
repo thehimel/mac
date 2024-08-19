@@ -274,3 +274,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import './index.css'
 ```
+
+### Install and Login to GitHub
+
+* `brew install gh`
+* [Generate personal access token](https://github.com/settings/tokens)
+* `gh auth login`
