@@ -66,9 +66,7 @@ mvn -help
 brew uninstall maven
 ```
 
-### Java
-
-> Make sure to install Maven first.
+> Having Maven caused error starting Spring Boot project. Therefore, do not install Maven.
 
 ### With IntelliJ
 
