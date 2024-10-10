@@ -44,6 +44,7 @@
 
 - [Atom Material Icons - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
 - [Material Theme UI - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/8006-material-theme-ui)
+- [.​env files support](https://plugins.jetbrains.com/plugin/9525--env-files-support)
 
 #### Theme
 
