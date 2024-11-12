@@ -5,6 +5,10 @@ Mac configurations
 
 * `brew update -d`. Here `-d` is to see what is happening behind.
 
+## Useful Commands
+
+* Change creation date all files and directories recursively: `find /Users/username/Documents -exec SetFile -d "$(date +"%m/%d/%Y %H:%M:%S")" {} +`
+
 ## Install Software
 
 ### Install Python with brew:
@@ -278,3 +282,4 @@ import './index.css'
 * `brew install gh`
 * [Generate personal access token](https://github.com/settings/tokens)
 * `gh auth login`
+
