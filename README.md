@@ -144,12 +144,31 @@ brew uninstall openjdk@17
 ### Node
 
 ```shell
-# Install
-brew install node
-
-# Uninstall
+# Uninstall if you have already have any installed version
+brew list
 brew uninstall --force node
 rm -rf ~/.npm
+
+# Install latest version
+brew install node
+
+# Install a specific or LTS version
+# Install
+brew install node@22
+
+# Link the newly installed version: After installing, you might need to link node@22 to make it the default version.
+brew link --overwrite --force node@22
+
+# Test
+node -v
+npm -v
+
+# If you do not get any resutl with `node -v`, you need to have node@22 first in your PATH, run:
+echo 'export PATH="/opt/homebrew/opt/node@22/bin:$PATH"' >> ~/.zshrc
+
+# Optional: For compilers to find node@22 you may need to set:
+export LDFLAGS="-L/opt/homebrew/opt/node@22/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/node@22/include"
 ```
 
 #### Delete `node_modules` and Reinstall Dependencies
