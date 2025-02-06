@@ -8,6 +8,7 @@ Mac configurations
 ## Useful Commands
 
 * Change creation date all files and directories recursively: `find /Users/username/Documents -exec SetFile -d "$(date +"%m/%d/%Y %H:%M:%S")" {} +`
+* Change creation date all files and directories recursively in current directory: `find . -exec SetFile -d "$(date +"%m/%d/%Y %H:%M:%S")" {} +`
 * Generate a 32-byte random value encoded in Base64 format: `openssl rand -base64 32`
 
 ## Install Software
