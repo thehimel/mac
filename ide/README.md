@@ -21,6 +21,8 @@
     - ☑ Enable new UI
     - ☑ Compact mode
   - Editor
+    - ☑ Change font size with Command+Mouse Wheel in:
+      - All editors
     - Font
       - Font: `Fira Code`
       - Size: `14`
