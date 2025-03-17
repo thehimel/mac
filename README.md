@@ -18,9 +18,21 @@ Mac configurations
 * Install: `brew install python`
 * Link: `brew link python3`
 * Test: `which python3` and `where python3`
-* Update `~/.zshrc`
-  * `code ~/.zshrc`
-  * Add `alias python="python3"` and `alias pip="pip3"` in the file.
+* Open `~/.zshrc` with `code ~/.zshrc`
+* Add the following configurations to the `~/.zshrc` file:
+
+```shell
+# Aliases
+alias ts="ts-node"
+alias python="python3"
+alias pip="pip3"
+
+# Ensure Python is in the PATH for the scripts to work correctly
+export PATH="/usr/local/bin:$PATH"
+```
+
+* To apply the changes without restarting your terminal, run:
+
 * References
   * https://opensource.com/article/19/5/python-3-default-mac
 * Notes:
