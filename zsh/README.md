@@ -102,7 +102,7 @@ fontFamily: 'MesloLGS NF',
 #### powerlevel10k
 
 * Install: `brew install powerlevel10k`
-* Activate by adding this to `~/.zshrc`: `source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme`
+* Activate by adding this to `~/.zshrc`: `source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme`
 * Source: [Install with Homebrew](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew)
 
 ##### Customizations
