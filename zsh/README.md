@@ -47,14 +47,12 @@ precmd () {
 * Install: `brew install zsh-autosuggestions`
 * Activate by adding this to `~/.zshrc`: `source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
 * Source: [Install with Homebrew](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew)
-* To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
 #### zsh-syntax-highlighting
 
 * Install: `brew install zsh-syntax-highlighting`
 * Activate by adding this to `~/.zshrc`: `source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
 * Source: [Install with Homebrew](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#using-packages)
-* To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
 ### Fonts
 
@@ -103,7 +101,9 @@ fontFamily: 'MesloLGS NF',
 
 #### powerlevel10k
 
-* [Install with Oh My ZSH](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+* Install: `brew install powerlevel10k`
+* Activate by adding this to `~/.zshrc`: `source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme`
+* Source: [Install with Homebrew](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#homebrew)
 
 ##### Customizations
 
