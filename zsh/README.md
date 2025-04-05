@@ -44,12 +44,16 @@ precmd () {
 
 #### zsh-autosuggestions
 
-* [Install with Homebrew](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew)
+* Install: `brew install zsh-autosuggestions`
+* Activate by adding this to `~/.zshrc`: `source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh`
+* Source: [Install with Homebrew](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#homebrew)
 * To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
 #### zsh-syntax-highlighting
 
-* [Install with Homebrew](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#using-packages)
+* Install: `brew install zsh-syntax-highlighting`
+* Activate by adding this to `~/.zshrc`: `source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh`
+* Source: [Install with Homebrew](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#using-packages)
 * To edit the configuration file with vscode, you can use: `code ~/.zshrc`.
 
 ### Fonts
