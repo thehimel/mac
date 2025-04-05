@@ -47,7 +47,7 @@
     config: {
       // ...
         hyperBorder: {
-            borderColors: ['random','random'],
+            // borderColors: ['random','random'],
             borderWidth: '4px',
             animate: true,
         },
