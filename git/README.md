@@ -24,3 +24,9 @@
 
 * In `Keychain Access`, you can find git credentials saved for `github.com` as `internet password`.
 * Delete the credential from terminal: `security delete-internet-password -s github.com`
+
+### Install and Login to GitHub
+
+* `brew install gh`
+* [Generate personal access token](https://github.com/settings/tokens)
+* `gh auth login`
