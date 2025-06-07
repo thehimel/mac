@@ -156,6 +156,63 @@ brew uninstall openjdk@17
 
 ### Node
 
+#### Install Node with NVM
+
+* Install nvm with Homebrew: `brew install nvm`
+* Create the NVM directory: `mkdir ~/.nvm`
+* Add NVM to your `.zshrc` by opening .zshrc in your editor: `code ~/.zshrc`
+* Add the following lines at the bottom:
+
+```bash
+# NVM Setup
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"
+
+# Auto-switch Node versions using .nvmrc
+autoload -U add-zsh-hook
+
+load-nvmrc() {
+  local node_version
+  if [[ -f .nvmrc ]]; then
+    node_version=$(nvm version "$(cat .nvmrc)")
+    if [[ "$node_version" == "N/A" ]]; then
+      echo "Installing Node.js $(cat .nvmrc)..."
+      nvm install
+    elif [[ "$node_version" != "$(nvm current)" ]]; then
+      echo "Switching to Node.js $(cat .nvmrc)..."
+      nvm use
+    fi
+  fi
+}
+
+add-zsh-hook chpwd load-nvmrc
+load-nvmrc
+```
+
+* Apply changes: `source ~/.zshrc`
+*  Install Node.js versions via nvm
+
+```bash
+nvm install 22        # Latest Node.js version
+nvm install 18        # Node.js version for Firebase compatibility
+nvm alias default 22  # Set global default version
+```
+
+* Create `.nvmrc` in a Firebase project:
+
+```bash
+cd ~/path/to/firebase-project
+echo "18" > .nvmrc
+```
+
+##### Result
+
+* Globally: Your terminal runs the latest `Node.js` version.
+* In Firebase Project: Terminal auto-switches to `Node.js` 18.
+* Everything is managed cleanly with `nvm`.
+
+#### Install Node Directly (Deprecated)
+
 ```shell
 # Uninstall if you have already have any installed version
 brew list
