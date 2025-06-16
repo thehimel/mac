@@ -37,3 +37,20 @@ export PATH="$PATH:$HOME/bin"
 ```
 
 Verify with: `which terraform` or `terraform version`
+
+## Set Alias
+
+Add this line to your `~/.zshrc` file:
+
+```bash
+alias tf="terraform"
+```
+
+Then reload your shell configuration:
+
+```bash
+source ~/.zshrc
+```
+
+Or restart your terminal. Now you can use `tf` instead of `terraform` for all commands.
+
