@@ -33,6 +33,11 @@
         - □ Use color scheme font instead of the default
       - Console Font
         - □ Use console font instead of the default
+- Version Control
+  - Git
+    - Push
+      - Protected branches
+        - Remove `master;main` if exists to enable `Force Push` for all branches
 - Tools
   - Terminal
     - Cursor shape: `Vertical`
@@ -41,6 +46,8 @@
     - ☑ Optimize imports
     - ☑ Rearrange code
     - ☑ Run code cleanup
+- Advanced Settings 
+  - ☑ Use Safe Force Push (Use '--force-with-lease' when calling force push from IDE instead of just '--force')
 
 #### Plugins
 
