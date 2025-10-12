@@ -40,6 +40,10 @@
         - Remove `master;main` if exists to enable `Force Push` for all branches
 - Tools
   - Terminal
+    - Terminal engine: `Classic` (For unified colors)
+    - Font Settings
+      - Font: MesloLGS NF | Fallback: Fira Code
+      - Size: 14.0 | Line height: 1.0 | Column width: 1.0
     - Cursor shape: `Vertical`
   - Actions on Save
     - ☑ Reformat code
