@@ -22,19 +22,20 @@
   - New UI
     - ☑ Enable new UI
     - ☑ Compact mode
-  - Editor
+- Editor
+  - General
     - ☑ Change font size with Command+Mouse Wheel in:
       - All editors
-    - Font
-      - Font: `Fira Code`
-      - Size: `14`
-      - Line height: `1.2`
-      - ☑ Enable ligatures
-    - Color Scheme
-      - Color Scheme Font
-        - □ Use color scheme font instead of the default
-      - Console Font
-        - □ Use console font instead of the default
+  - Font
+    - Font: `Fira Code`
+    - Size: `14`
+    - Line height: `1.2`
+    - ☑ Enable ligatures
+  - Color Scheme
+    - Color Scheme Font
+      - □ Use color scheme font instead of the default
+    - Console Font
+      - □ Use console font instead of the default
 - Version Control
   - Git
     - Push
