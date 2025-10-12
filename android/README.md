@@ -1,5 +1,7 @@
 # Android
 
+> Install [JDK](jdk) (I.e. Corretto) before proceeding.
+
 ## Android Studio
 
 Installed via Jetbrains Toolbox
