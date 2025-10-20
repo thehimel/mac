@@ -184,7 +184,7 @@ flutter create my_first_app
 cd my_first_app
 ```
 
-### Run on iOS Simulator
+## Run on Devices
 
 List Available Devices
 
@@ -193,11 +193,18 @@ flutter devices
 ```
 
 ```terminaloutput
-Found 3 connected devices:
-  iPhone 15 Pro (mobile) • ios
-  macOS (desktop)        • darwin-arm64
-  Chrome (web)           • web-javascript
+Found 4 connected devices:
+  sdk gphone64 arm64 (mobile) • android-arm64  • Android 16 (API 36) (emulator)
+  iPhone 15 Pro (mobile)      ios              • com.apple.CoreSimulator.SimRuntime.iOS-18-4 (simulator)
+  macOS (desktop)             • darwin-arm64   • macOS 15.6 24G84 darwin-arm64
+  Chrome (web)                • web-javascript • Google Chrome 141.0.7390.108
 ```
+
+> The first column shows the device name to use with `-d` flag.
+
+### Run on iOS Simulator
+
+> Make sure the Simulator is running.
 
 ```bash
 flutter run -d "iPhone 15 Pro"
@@ -205,10 +212,10 @@ flutter run -d "iPhone 15 Pro"
 
 ### Run on Android Emulator
 
-Make sure an Android emulator is running, then:
+> Make sure an Android emulator is running.
 
 ```bash
-flutter run -d android
+flutter run -d "sdk gphone64 arm64"
 ```
 
 ## Troubleshooting
