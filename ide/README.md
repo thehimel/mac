@@ -16,23 +16,26 @@
 
 - Appearance & Behavior
   - Appearance
+    - Theme: `Material Oceanic`
+    - Editor color scheme: `Material Oceanic Theme default`
     - ☑ Use custom font: `Fira Code` | Size: `14`
   - New UI
     - ☑ Enable new UI
     - ☑ Compact mode
-  - Editor
+- Editor
+  - General
     - ☑ Change font size with Command+Mouse Wheel in:
       - All editors
-    - Font
-      - Font: `Fira Code`
-      - Size: `14`
-      - Line height: `1.2`
-      - ☑ Enable ligatures
-    - Color Scheme
-      - Color Scheme Font
-        - □ Use color scheme font instead of the default
-      - Console Font
-        - □ Use console font instead of the default
+  - Font
+    - Font: `Fira Code`
+    - Size: `14`
+    - Line height: `1.2`
+    - ☑ Enable ligatures
+  - Color Scheme
+    - Color Scheme Font
+      - □ Use color scheme font instead of the default
+    - Console Font
+      - □ Use console font instead of the default
 - Version Control
   - Git
     - Push
@@ -40,6 +43,10 @@
         - Remove `master;main` if exists to enable `Force Push` for all branches
 - Tools
   - Terminal
+    - Terminal engine: `Classic` (For unified colors)
+    - Font Settings
+      - Font: `MesloLGS NF` | Fallback: `Fira Code`
+      - Size: `14.0` | Line height: `1.0` | Column width: `1.0`
     - Cursor shape: `Vertical`
   - Actions on Save
     - ☑ Reformat code
