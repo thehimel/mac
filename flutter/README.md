@@ -179,9 +179,7 @@ cd my_first_app
 
 List Available Devices
 
-```bash
-flutter devices
-```
+[run_devices.sh](scripts/run_devices.sh)
 
 ```terminaloutput
 Found 4 connected devices:
@@ -195,36 +193,20 @@ Found 4 connected devices:
 
 ### Run on iOS Simulator
 
-```bash
-# Open iOS Simulator
-open -a Simulator
-```
-
-Or open through Xcode: **Xcode → Open Developer Tool → Simulator**
-
-> Make sure the Simulator is running.
-
-```bash
-flutter run -d "iPhone 15 Pro"
-```
+[run_ios_simulator.sh](scripts/run_ios_simulator.sh)
+[run_on_ios.sh](scripts/run_on_ios.sh)
 
 ### Run on Android Emulator
+
+[run_android_emulator.sh](scripts/run_android_emulator.sh)
+[run_on_android.sh](scripts/run_on_android.sh)
 
 ```bash
 # List available AVDs
 emulator -list-avds
 
-# Launch the only available emulator in background without terminal output
-emulator @$(emulator -list-avds | head -n 1) > /dev/null 2>&1 &
-
-# Launch a specific emulator
+# Launch emulator in background without terminal output
 emulator -avd Medium_Phone_API_36.1 > /dev/null 2>&1 &
-```
-
-> Make sure an Android emulator is running.
-
-```bash
-flutter run -d "sdk gphone64 arm64"
 ```
 
 ## Troubleshooting
