@@ -118,15 +118,6 @@ xcodebuild -downloadPlatform iOS
 open -a Simulator
 ```
 
-#### iOS Simulator
-
-```bash
-# Open iOS Simulator
-open -a Simulator
-```
-
-Or open through Xcode: **Xcode → Open Developer Tool → Simulator**
-
 #### Install CocoaPods
 
 CocoaPods is required for iOS dependencies:
@@ -204,6 +195,13 @@ Found 4 connected devices:
 
 ### Run on iOS Simulator
 
+```bash
+# Open iOS Simulator
+open -a Simulator
+```
+
+Or open through Xcode: **Xcode → Open Developer Tool → Simulator**
+
 > Make sure the Simulator is running.
 
 ```bash
@@ -211,6 +209,17 @@ flutter run -d "iPhone 15 Pro"
 ```
 
 ### Run on Android Emulator
+
+```bash
+# List available AVDs
+emulator -list-avds
+
+# Launch the only available emulator in background without terminal output
+emulator @$(emulator -list-avds | head -n 1) > /dev/null 2>&1 &
+
+# Launch a specific emulator
+emulator -avd Medium_Phone_API_36.1 > /dev/null 2>&1 &
+```
 
 > Make sure an Android emulator is running.
 
