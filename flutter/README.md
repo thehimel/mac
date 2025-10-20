@@ -186,8 +186,21 @@ cd my_first_app
 
 ### Run on iOS Simulator
 
+List Available Devices
+
 ```bash
-flutter run -d ios
+flutter devices
+```
+
+```terminaloutput
+Found 3 connected devices:
+  iPhone 15 Pro (mobile) • ios
+  macOS (desktop)        • darwin-arm64
+  Chrome (web)           • web-javascript
+```
+
+```bash
+flutter run -d "iPhone 15 Pro"
 ```
 
 ### Run on Android Emulator
@@ -196,12 +209,6 @@ Make sure an Android emulator is running, then:
 
 ```bash
 flutter run -d android
-```
-
-### List Available Devices
-
-```bash
-flutter devices
 ```
 
 ## Troubleshooting
