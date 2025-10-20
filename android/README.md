@@ -4,7 +4,37 @@
 
 ## Android Studio
 
-Installed via Jetbrains Toolbox
+* Install via Jetbrains Toolbox.
+
+### Environment Setup
+
+After installing Android Studio via JetBrains Toolbox, you need to configure the Android SDK paths in your shell profile.
+
+#### Add to `~/.zshrc`:
+
+```bash
+# Android Configuration
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_SDK_ROOT="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator:$ANDROID_HOME/build-tools:$PATH"
+export ANDROID_STUDIO_PATH="$HOME/Applications/Android Studio.app"
+```
+
+#### Verify Setup:
+
+```bash
+# Reload shell configuration
+source ~/.zshrc
+
+# Check environment variables
+echo $ANDROID_HOME
+echo $ANDROID_SDK_ROOT
+
+# Test Android tools
+adb version
+which adb
+which emulator
+```
 
 ### Initialization
 
