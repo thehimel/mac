@@ -37,6 +37,10 @@ brew install --cask flutter
 🍺  flutter was successfully installed!
 ```
 
+## Install IDE Plugins
+
+* [JetBrains Flutter Plugin](https://plugins.jetbrains.com/plugin/9212-flutter)
+
 ### Initial Health Check
 
 ```bash
