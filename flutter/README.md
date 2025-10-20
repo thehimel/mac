@@ -126,15 +126,17 @@ CocoaPods is required for iOS dependencies:
 brew install cocoapods
 ```
 
-### 3. Install Rosetta (Apple Silicon Macs Only)
+### Install Rosetta (Apple Silicon Macs Only) (Skipped)
 
-If you have an M1/M2/M3 Mac, install Rosetta for compatibility:
+Rosetta is generally not needed for modern Flutter development on Apple Silicon Macs (Flutter 3.0+, Android Studio with
+ARM support, API 30+ emulators). Only install if you encounter architecture compatibility errors or need to run older
+x86_64 emulators (API 29 and below).
 
 ```bash
 sudo softwareupdate --install-rosetta --agree-to-license
 ```
 
-### 10. Final Verification
+### Final Verification
 
 ```bash
 flutter doctor -v
