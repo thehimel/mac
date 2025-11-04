@@ -1,0 +1,81 @@
+{
+  // LaTeX Workshop Configuration
+  "latex-workshop.latex.tools": [
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ],
+      "env": {}
+    },
+    {
+      "name": "bibtex",
+      "command": "bibtex",
+      "args": [
+        "%DOCFILE%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "pdflatex",
+      "tools": [
+        "pdflatex"
+      ]
+    },
+    {
+      "name": "pdflatex -> bibtex -> pdflatex*2",
+      "tools": [
+        "pdflatex",
+        "bibtex",
+        "pdflatex",
+        "pdflatex"
+      ]
+    }
+  ],
+  // Auto-compile on save
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  // Auto-clean after build
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  // PDF viewer settings
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+  // Editor settings matching Overleaf
+  "editor.fontSize": 12,
+  "editor.fontFamily": "'Lucida Console', 'Source Code Pro', monospace",
+  "editor.lineHeight": 1.5,
+  // Code check
+  "latex-workshop.linting.chktex.enabled": true,
+  // Auto-complete
+  "latex-workshop.intellisense.package.enabled": true,
+  // Clean extensions
+  "latex-workshop.latex.clean.fileTypes": [
+    "*.aux",
+    "*.bbl",
+    "*.blg",
+    "*.idx",
+    "*.ind",
+    "*.lof",
+    "*.lot",
+    "*.out",
+    "*.toc",
+    "*.acn",
+    "*.acr",
+    "*.alg",
+    "*.glg",
+    "*.glo",
+    "*.gls",
+    "*.fls",
+    "*.log",
+    "*.fdb_latexmk",
+    "*.snm",
+    "*.nav",
+    "*.synctex.gz"
+  ]
+}
+
