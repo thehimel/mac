@@ -10,13 +10,14 @@
 2. [Prerequisites](#prerequisites)
 3. [Step 1: Install LaTeX Distribution](#step-1-install-latex-distribution)
 4. [Step 2: Install LaTeX Workshop Extension in Cursor](#step-2-install-latex-workshop-extension-in-cursor)
-5. [Step 3: Configure Cursor Settings](#step-3-configure-cursor-settings)
-6. [Step 4: Test Your Setup](#step-4-test-your-setup)
-7. [Troubleshooting](#troubleshooting)
-8. [Required Tools Summary](#required-tools-summary)
-9. [Quick Reference Commands](#quick-reference-commands)
-10. [Next Steps](#next-steps)
-11. [Additional Resources](#additional-resources)
+5. [Step 2B: Install TeXiFy-IDEA in PyCharm](#step-2b-install-texify-idea-in-pycharm)
+6. [Step 3: Configure Cursor Settings](#step-3-configure-cursor-settings)
+7. [Step 4: Test Your Setup](#step-4-test-your-setup)
+8. [Troubleshooting](#troubleshooting)
+9. [Required Tools Summary](#required-tools-summary)
+10. [Quick Reference Commands](#quick-reference-commands)
+11. [Next Steps](#next-steps)
+12. [Additional Resources](#additional-resources)
 
 ---
 
@@ -120,6 +121,29 @@ export PATH="/Library/TeX/texbin:$PATH"
 1. Open any `.tex` file
 2. You should see LaTeX commands highlighted
 3. Check the Extensions sidebar - "LaTeX Workshop" should show as installed
+
+---
+
+## Step 2B: Install TeXiFy-IDEA in PyCharm
+
+TeXiFy-IDEA is a LaTeX plugin for JetBrains IDEs (PyCharm, IntelliJ IDEA, etc.) that provides LaTeX editing and compilation support.
+
+### Verify Plugin Installation
+
+1. Open any `.tex` file in PyCharm
+2. You should see LaTeX syntax highlighting
+3. Check **Settings → Plugins** - TeXiFy-IDEA should show as installed and enabled
+4. Right-click on a `.tex` file - you should see LaTeX-related options in the context menu
+
+### Features
+
+TeXiFy-IDEA provides:
+- Syntax highlighting for LaTeX files
+- Auto-completion for LaTeX commands
+- Integrated PDF viewer
+- BibTeX support
+- Error highlighting and navigation
+- Structure view for documents
 
 ---
 
@@ -254,6 +278,7 @@ sudo tlmgr install collection-fontsrecommended
 ### Extensions
 
 - **LaTeX Workshop**: Primary extension for LaTeX support in Cursor/VS Code
+- **TeXiFy-IDEA**: LaTeX plugin for PyCharm and other JetBrains IDEs
 
 ### Optional but Recommended
 
