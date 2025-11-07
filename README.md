@@ -1,6 +1,10 @@
 # Mac
 Mac configurations
 
+## Display Settings
+
+<img width="484" height="611" alt="image" src="https://github.com/user-attachments/assets/cf2d20b0-0f19-403c-9490-7ca031c37cad" />
+
 ## Update Software
 
 * `brew update -d`. Here `-d` is to see what is happening behind.
