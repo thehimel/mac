@@ -1,0 +1,15 @@
+{
+  "window.commandCenter": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "editor.fontFamily": "MesloLGS NF",
+  "terminal.integrated.cursorStyle": "line",
+  "git.confirmSync": false,
+  "editor.fontVariations": false,
+  "window.zoomLevel": 0.6,
+  "workbench.editorAssociations": {
+    "*.pdf": "latex-workshop-pdf-hook"
+  },
+  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.iconTheme": "a-file-icon-vscode",
+  "workbench.settings.applyToAllProfiles": [], // Increases overall UI scale by 60% for all interface elements
+}
