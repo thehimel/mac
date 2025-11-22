@@ -2,9 +2,14 @@
 
 ## VS Code
 
-- Theme
-  - [One Dark Pro Flat](https://open-vsx.org/extension/zhuangtongfa/material-theme)
-  - [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
+### Extensions
+
+- [Typos spell checker](https://open-vsx.org/extension/tekumara/typos-vscode)
+
+### Theme
+
+- [One Dark Pro Flat](https://open-vsx.org/extension/zhuangtongfa/material-theme)
+- [Atom Material Icons](https://marketplace.visualstudio.com/items?itemName=AtomMaterial.a-file-icon-vscode)
 
 ## Common in PyCharm, Goland, and IntelliJ IDEA
 
