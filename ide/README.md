@@ -5,6 +5,9 @@
 ### Extensions
 
 - [Typos spell checker](https://open-vsx.org/extension/tekumara/typos-vscode)
+- [MDX](https://open-vsx.org/extension/unifiedjs/vscode-mdx)
+- [vscode-pdf](https://open-vsx.org/extension/tomoki1207/pdf)
+- [LaTeX Workshop](https://open-vsx.org/extension/James-Yu/latex-workshop)
 
 ### Theme
 
