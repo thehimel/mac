@@ -75,10 +75,11 @@
 - [Atom Material Icons - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/10044-atom-material-icons)
 - [Material Theme UI - Atom Material Themes & Plugins](https://plugins.jetbrains.com/plugin/8006-material-theme-ui)
 - [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets)
-- [.​env files support](https://plugins.jetbrains.com/plugin/9525--env-files-support)
+- [.env files](https://plugins.jetbrains.com/plugin/9525--env-files-support)
 - [TeXiFy-IDEA](https://plugins.jetbrains.com/plugin/9473-texify-idea)
 - [PDF Viewer](https://plugins.jetbrains.com/plugin/14494-pdf-viewer)
 - [StarFactory - For MDC Files](https://plugins.jetbrains.com/plugin/28096-starfactory)
+- [Mermaid](https://plugins.jetbrains.com/plugin/20146-mermaid)
 
 #### Theme
 
