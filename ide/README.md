@@ -8,6 +8,7 @@
 - [MDX](https://open-vsx.org/extension/unifiedjs/vscode-mdx)
 - [vscode-pdf](https://open-vsx.org/extension/tomoki1207/pdf)
 - [LaTeX Workshop](https://open-vsx.org/extension/James-Yu/latex-workshop)
+- [Swark - Automatic Architecture Diagrams from Code](https://marketplace.visualstudio.com/items?itemName=swark.swark)
 
 ### Theme
 
