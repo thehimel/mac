@@ -4,6 +4,7 @@
 
 ### Extensions
 
+- [Markdown All in One](https://open-vsx.org/extension/yzhang/markdown-all-in-one)
 - [Typos spell checker](https://open-vsx.org/extension/tekumara/typos-vscode)
 - [MDX](https://open-vsx.org/extension/unifiedjs/vscode-mdx)
 - [vscode-pdf](https://open-vsx.org/extension/tomoki1207/pdf)
